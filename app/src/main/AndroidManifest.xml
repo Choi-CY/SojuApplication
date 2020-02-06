@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sojuapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ILDA"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".JoinActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Board.SelectActivity" />
+        <activity android:name=".Board.Boardmain2Activity" />
+        <activity android:name=".Macpac.SelectfoodmacActivity" />
+        <activity android:name=".Beerpac.SelectfoodbeerActivity" />
+        <activity android:name=".Sojupac.SelectfoodsojuActivity" />
+        <activity android:name=".Beerpac.BeerActivity" />
+        <activity android:name=".Macpac.MacActivity" />
+        <activity android:name=".Sojupac.SojuActivity" />
+        <activity android:name=".web.twiterActivity" />
+        <activity android:name=".web.InstaActivity" />
+        <activity android:name=".web.FacebookActivity" />
+        <activity android:name=".web.YoutubeActivity" />
+        <activity android:name=".todayrecommendfood.TodayRecomendActivity" />
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
